@@ -23,13 +23,21 @@
               "src/assets"
             ],
             "styles": [
+              "./node_modules/bootstrap/dist/css/bootstrap.min.css",              
+              "./src/assets/vendor/metisMenu/metisMenu.min.css",
               "./src/assets/dist/css/sb-admin-2.min.css",
-              "./node_modules/bootstrap/dist/css/bootstrap.min.css",
+              "./src/assets/vendor/morrisjs/morris.css",
+              "./src/assets/vendor/font-awesome/css/font-awesome.min.css",              
               "src/styles.css"
             ],
             "scripts": [
-              "./src/assets/dist/js/sb-admin-2.min.js",
-              "./node_modules/jquery/dist/jquery.min.js" 
+              "./node_modules/jquery/dist/jquery.min.js",               
+              "./node_modules/bootstrap/dist/js/bootstrap.min.js",   
+              "./src/assets/vendor/metisMenu/metisMenu.min.js",
+              "./src/assets/vendor/raphael/raphael.min.js",
+              "./src/assets/vendor/morrisjs/morris.min.js",
+              "./src/assets/data/morris-data.js",
+              "./src/assets/dist/js/sb-admin-2.min.js"
             ]
           },
           "configurations": {
