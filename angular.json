@@ -23,12 +23,13 @@
               "src/assets"
             ],
             "styles": [
-              "./node_modules/bootstrap/dist/css/sb-admin-2.min",
+              "./src/assets/dist/css/sb-admin-2.min.css",
               "./node_modules/bootstrap/dist/css/bootstrap.min.css",
               "src/styles.css"
             ],
             "scripts": [
-              "./node_modules/bootstrap/dist/js/sb-admin-2.min"
+              "./src/assets/dist/js/sb-admin-2.min.js",
+              "./node_modules/jquery/dist/jquery.min.js" 
             ]
           },
           "configurations": {
